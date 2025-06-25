@@ -1,0 +1,11 @@
+2025-06-24 22:08:55,214 - INFO - Rain monitoring script started. Log file: logs/rain_monitor_20250624_220855.log
+2025-06-24 22:08:55,214 - INFO - === Rain Monitoring Check Started ===
+2025-06-24 22:08:55,214 - INFO - Fetching weather data for Madison
+2025-06-24 22:08:55,726 - INFO - Successfully fetched weather data for Madison
+2025-06-24 22:08:55,727 - INFO - Found current hour index: 22 for time 2025-06-24T22:00
+2025-06-24 22:08:55,727 - INFO - Hour 1: 2025-06-24T22:00 - 15% chance, 0.0mm
+2025-06-24 22:08:55,727 - INFO - Hour 2: 2025-06-24T23:00 - 13% chance, 0.0mm
+2025-06-24 22:08:55,727 - WARNING - Not enough forecast data for hour 3
+2025-06-24 22:08:55,728 - INFO - Analysis complete - Max probability: 15%, Total precipitation: 0.0mm, Alert triggered: False
+2025-06-24 22:08:55,728 - INFO - No alert needed. Maximum probability: 15% (threshold: 50%)
+2025-06-24 22:08:55,728 - INFO - === Rain Monitoring Check Completed ===
