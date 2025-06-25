@@ -38,7 +38,7 @@ CITIES = {
 
 DEFAULT_CITY = 'madison'
 RAIN_THRESHOLD = 50  # Probability threshold in percentage
-TESTING_MODE = True  # Set to True to send emails regardless of probability
+TESTING_MODE = False  # Set to True to send emails regardless of probability
 EMAIL_SENDER = 'raychanan@gmail.com'
 EMAIL_PASSWORD = 'aiyk zslp vpak bshl'
 EMAIL_RECIPIENT = 'raychanan@gmail.com'
