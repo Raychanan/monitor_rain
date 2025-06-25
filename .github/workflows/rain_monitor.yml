@@ -31,7 +31,7 @@ jobs:
       run: python rain_monitor.py
       
     - name: Upload logs as artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()  # Upload logs even if the script fails
       with:
         name: rain-monitor-logs-${{ github.run_number }}
